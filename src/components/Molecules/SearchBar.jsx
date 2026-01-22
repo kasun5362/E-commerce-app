@@ -4,7 +4,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function SearchBar() {
   return (
-    <Form>
+    <Form className='d-flex flex-grow-1 mx-3'>
         <InputGroup>
             <Form.Control type='search' placeholder='Search Products'/>
             <Button variant='outline-primary'>
