@@ -3,14 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import SearchBar from './components/Molecules/SearchBar'
+import Header from './components/Organisms/Header'
 
 
 function App() {
 
 
   return (
-    <div>
-      <SearchBar/>
+    <div className='App-Container'>
+      <Header/>
+   
     </div>
   )
 }
