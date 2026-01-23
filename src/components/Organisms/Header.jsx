@@ -5,16 +5,15 @@ import SearchBar from '../Molecules/SearchBar'
 function Header() {
   return (
     <Navbar expand="lg"  className='bg-light'>
-        <Container>
+        <Container className='container-sm'>
             <Navbar.Brand href='#' className='fw-bold text-primary fs-3' > 
                 Sport Shop
             </Navbar.Brand>
 
-            <Navbar.Toggle aria-controls='basic-navbar-nav'>
-              
-            </Navbar.Toggle>
+            <Navbar.Toggle />     
+      
 
-            <Navbar.Collapse id='basic-navbar-nav'>
+            <Navbar.Collapse id=''>
               <Nav className='me-auto'>
                 <Nav.Link href='#'>Home</Nav.Link>
                 <Nav.Link href='#'>Products</Nav.Link>
